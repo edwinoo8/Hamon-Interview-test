@@ -50,7 +50,7 @@ def ffindstring():
 	with open(fname, 'rb', 0) as file, \
      mmap.mmap(file.fileno(), 0, access=mmap.ACCESS_READ) as check:
     if check.find(s) != -1:
-        return('true')
+        return true
 
 #pyton program to accept an amount 
 #and count number of notes
